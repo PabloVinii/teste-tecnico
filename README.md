@@ -28,3 +28,8 @@ Acesse o arquivo ".env" e preencha com os dados de acesso de seu banco
 ```
 flask run
 ```
+
+## Rodar Testes
+```
+python test_api.py
+```
