@@ -1,8 +1,4 @@
-# models.py
-from flask_sqlalchemy import SQLAlchemy
-
-# Cria uma instância do SQLAlchemy
-db = SQLAlchemy()
+from app import db
 
 # Classe para representar a tabela "contato"
 class Contato(db.Model):
