@@ -20,7 +20,8 @@ pip install -r requirements.txt
 
 ## Configurar banco de dados
 ```
-Acesse o arquivo .env e preencha com os dados de acesso de seu banco
+Importe o "dump.sql" para seu MySQL
+Acesse o arquivo ".env" e preencha com os dados de acesso de seu banco
 ```
 
 ## Iniciar servidor
