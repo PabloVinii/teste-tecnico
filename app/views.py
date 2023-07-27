@@ -10,7 +10,6 @@ def create_contato():
         email = request.json['email']
         telefone = request.json['telefone']
 
-        # Utilizando SQLAlchemy para criar e salvar o contato no banco de dados
         contato = Contato(nome, sobrenome, email, telefone)
         db.session.add(contato)
         db.session.commit()
