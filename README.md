@@ -10,7 +10,8 @@ python -m venv .venv
 
 ## Ativar ambiente virtual
 ```
-.\.venv\Scripts\activate
+Windows: .\.venv\Scripts\activate
+Linux: source .venv/bin/activate
 ```
 
 ## Instalar dependências
